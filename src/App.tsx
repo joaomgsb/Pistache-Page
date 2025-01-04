@@ -7,6 +7,7 @@ import Recipes from './components/Recipes';
 import ImageCarousel from './components/ImageCarousel';
 import Curiosities from './components/Curiosities';
 import VideoSection from './components/VideoSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Recipes />
       <Curiosities />
       <VideoSection />
+      <Footer />
     </div>
   );
 }

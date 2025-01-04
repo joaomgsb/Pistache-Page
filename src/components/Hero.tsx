@@ -6,9 +6,10 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0 animate-fade-in"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1637025237773-aca973800e05?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80")',
+          backgroundImage: 'url("https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2023/10/o-que-e-e-origem-pistache.jpg")',
           backgroundPosition: 'center',
-          backgroundSize: 'cover'
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/80 to-black/50" />
